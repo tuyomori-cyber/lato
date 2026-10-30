@@ -1,0 +1,14 @@
+{
+  "name": "lato",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "python3 -m unittest discover -s native-host/tests -p 'test_*.py'"
+  },
+  "dependencies": {
+    "dompurify": "^3.2.6",
+    "marked": "^15.0.12"
+  }
+}

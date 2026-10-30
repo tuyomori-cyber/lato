@@ -1,0 +1,7 @@
+{
+  "name": "org.foxbook.lato",
+  "description": "LATO read-only local Markdown host",
+  "path": "__HOST_PATH__",
+  "type": "stdio",
+  "allowed_extensions": ["lato@foxbook.local"]
+}

@@ -1,0 +1,22 @@
+# JavaScript / Firefox extension dependencies and build artifacts
+node_modules/
+dist/
+web-ext-artifacts/
+*.xpi
+
+# Native Messaging Host build and Python artifacts
+target/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and diagnostics
+.env
+.env.*
+!.env.example
+*.log
+
+# Editor and operating-system metadata
+.DS_Store
+Thumbs.db
